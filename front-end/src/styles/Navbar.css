@@ -1,0 +1,36 @@
+nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: #343A40;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.current {
+    border-bottom: 4px solid white;
+}
+
+.selected{
+    color: #FF0058;
+}
+
+.inactive{
+    color: white;
+}
