@@ -9,12 +9,14 @@ import PetPage from './pages/PetPage';
 import Dashboard from './pages/Dashboard';
 import AddPet from './pages/AddPet';
 import Navbar from './components/Navbar';
+import NavbarSlim from './components/NavbarSlim';
+
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <NavbarSlim />
         <Routes>
           <Route exact path='/' element={<Homepage />}></Route>
           <Route exact path='/profile' element={<Profile />}> </Route>

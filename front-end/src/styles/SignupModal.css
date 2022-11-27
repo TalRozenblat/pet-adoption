@@ -1,0 +1,148 @@
+.signup-modal{
+    width:450px;
+    /* height: 507px; */
+    margin: auto;
+    /* color: white; */
+    /* width: fit-content; */
+    margin-top: 5rem;
+    background-color: white;
+    border-radius: 5px;
+    border: rgb(211, 209, 209) 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-header{
+    /* color: black; */
+    align-self: center;
+    margin:0 1rem 1rem 1rem;
+    color:#FF0058;
+    font-size: xxx-large;
+}
+
+.signup-h4{
+    align-self: center;
+    margin: 0 auto 3rem auto;
+    color:#FF0058;
+}
+
+.signup-modal input{
+    width: 403px;
+    height: 50px;
+    background: #EDF2F7;
+    border: none;
+    margin: 0.5rem 0;
+    padding-left:40px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+    
+}
+
+.signup-modal label{
+    width: 403px;
+    margin-top: -1rem;
+}
+.signup-modal .login-label img{
+   position: relative;
+   right: -10px;
+   top: 45px;
+   padding: 0;
+   margin: 0;
+    width: 20px;
+}
+
+/* .signup-modal img .names{
+    position: relative;
+    right: -10px;
+    top: 35px;
+    padding: 0;
+    margin: 0;
+     width: 20px;
+} */
+
+.signup-modal .names img{
+    position: relative;
+    right: -10px;
+    top: 26px;
+    padding: 0;
+    margin: 0;
+     width: 20px;
+}
+
+.signup-modal .login-btn{
+    width: 403px;
+    height:50px;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #FF0058;
+    border:none;
+    cursor: pointer;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.signup-modal .login-btn:hover {
+    filter:grayscale(0.20)
+}
+
+
+.signup-modal .login-btn:active {
+    position:relative;
+	top:1px;
+}
+
+
+.close-svg{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.close-svg img {
+    width:30px;
+    height:auto;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.close-svg button{
+    width: fit-content;
+    padding: 0;
+    border:none;
+    background-color: white;
+}
+
+.close-svg button:hover{
+    cursor: pointer;
+}
+
+.names-div{
+    display:flex;
+    width: 403px;
+}
+
+.signup-modal input .names{
+    width: 180px;
+    height: 50px;
+    background: #EDF2F7;
+    border: none;
+    margin: 0.5rem 0;
+    /* padding-left:40px; */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+    
+}
+
+.signup-modal label .names{
+    width: 180px;
+    margin-top: -1rem;
+}
+
+.first-name{
+    margin-right: 43px;
+}
+
