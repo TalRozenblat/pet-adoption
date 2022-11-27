@@ -1,12 +1,14 @@
 import express from 'express';
 const app = express();
 import "dotenv/config";
+import db from './connection.js';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import jwt from 'jsonwebtoken';
 
-const PORT = 3000;
 
+
+const connection = db;
 
 app.use (express.json());
 app.use(cookieParser());
