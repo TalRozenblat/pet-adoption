@@ -1,0 +1,24 @@
+.my-pets-page{
+    width: 100vw;
+    background-color: purple;
+    height: 100vh;
+    display: flex;
+        flex-direction: column;
+}
+
+.title{
+    font-size: 3rem;
+    color: ivory;
+}
+
+
+
+@media (min-width: 640px) {
+
+    .pet-cards{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}

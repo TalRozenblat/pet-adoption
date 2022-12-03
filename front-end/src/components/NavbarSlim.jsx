@@ -38,7 +38,8 @@ const NavbarSlim = () => {
             
                     <ul className='nav_links'>
                         {/* <li><Link href="/"> Home</Link></li> */}
-                        <li><NavLink to="/myPets"> My Pets</NavLink></li>
+                        <li><NavLink to="/mypetspage"> My Pets</NavLink></li>
+                        <li><NavLink to="/searchPage"> Look for Pets</NavLink></li>
                         <li><NavLink to="/profile"> Profile</NavLink></li>
                         <li><NavLink to="/addPet"> Add Pet</NavLink></li>
                         <li><NavLink to="/dashboard"> Dashboard</NavLink></li>

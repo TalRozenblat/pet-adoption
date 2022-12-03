@@ -13,8 +13,11 @@ const MobileLinks = ({ open }) => {
         <NavLink to="/" activeClassName="active">
           Home
         </NavLink>
-        <NavLink to="/myPets" activeClassName="active">
+        <NavLink to="/mypetspage" activeClassName="active">
           My Pets
+        </NavLink>
+        <NavLink to="/searchPage" activeClassName="active">
+          Look for Pets
         </NavLink>
         <NavLink to="/profile" activeClassName="active">
           Profile

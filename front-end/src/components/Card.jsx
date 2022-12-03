@@ -1,27 +1,27 @@
 import React from 'react';
 import '../styles/Card.css';
 import { useNavigate } from 'react-router-dom';
-import useAuth from '../hooks/useAuth';
+// import useAuth from '../hooks/useAuth';
 import { savePet, deletePet } from '../services/server';
 
 
 function Card(props) {
-    const { activeUser } = useAuth();
+    // const { activeUser } = useAuth();
     const navigate = useNavigate;
     
     const handleSeeMore = () => {
         navigate(`/petPage/${props.card.id}`)
     }
 
-    const handleSavePet = async  () =>{
-        const response = await savePet(activeUser.id, props.card.id)
-    }
+    // const handleSavePet = async  () =>{
+    //     const response = await savePet(activeUser.id, props.card.id)
+    // }
 
-    const handleDeletePet = async () =>{
-        const response = await deletePet(activeUser.id, props.card.id)
-        console.log(response);
+    // const handleDeletePet = async () =>{
+    //     const response = await deletePet(activeUser.id, props.card.id)
+    //     console.log(response);
 
-    }
+    // }
 
     return (
         <div className='card'>
@@ -36,9 +36,9 @@ function Card(props) {
                 <div className="card-text">{props.card.bio}</div>
 
                 <p>Status: {props.card.status}</p>
-                <button  onClick = {navigate(`/petPage`)}>See more</button>
+                {/* <button  onClick = {navigate(`/petPage`)}>See more</button>
                 {props.page == 'search-page' && <button  onClick = {handleSavePet}>Save</button>}
-                {(props.page == 'search-page'  || props.page == 'saved-pets')&& <button  onClick = {handleDeletePet}>Delete</button>}
+                {(props.page == 'search-page'  || props.page == 'saved-pets')&& <button  onClick = {handleDeletePet}>Delete</button>} */}
 
             </div>
             
