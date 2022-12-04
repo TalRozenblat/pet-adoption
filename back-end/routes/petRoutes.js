@@ -2,7 +2,7 @@ import express from "express";
 import multer from "multer";
 const router = express.Router();
 import petController from "../controllers/petController.js";
-import addPetValidation from '../middlewares/addPetValidation.js';
+// import addPetValidation from '../middlewares/addPetValidation.js';
 const upload = multer({ dest: process.env.UPLOAD_FOLDER + '/'});
 
 

@@ -39,7 +39,7 @@ const petsTableQuery = `CREATE TABLE if not exists pets (
     weight int NOT NULL,
     color varchar(70) NOT NULL,
     bio text NOT NULL,
-    hypo bit(1) NOT NULL,
+    hypo int(1) NOT NULL,
     diet varchar(100) NOT NULL,
     breed varchar(45) NOT NULL,
     PRIMARY KEY (id),
@@ -63,7 +63,7 @@ connection.query(usersTableQuery, (err, result) => {
     }
 });
 
-connection.query(scoresTableQuery, (err, result) => {
+connection.query(petsTableQuery, (err, result) => {
     if (err){
      
         return;
